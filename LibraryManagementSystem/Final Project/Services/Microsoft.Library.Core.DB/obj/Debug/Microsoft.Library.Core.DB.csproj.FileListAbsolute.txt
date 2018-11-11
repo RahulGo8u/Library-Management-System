@@ -1,0 +1,91 @@
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.csprojResolveAssemblyReference.cache
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll.config
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.pdb
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.dll
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.dll
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.pdb
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.xml
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.dll
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.pdb
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll.config
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.pdb
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.pdb
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.xml
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.csprojResolveAssemblyReference.cache
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.pdb
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll.config
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.pdb
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.pdb
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.xml
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.csprojResolveAssemblyReference.cache
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.pdb
+D:\LMS\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.csprojResolveAssemblyReference.cache
+D:\LMS\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll.config
+D:\LMS\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll
+D:\LMS\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.pdb
+D:\LMS\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.dll
+D:\LMS\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.dll
+D:\LMS\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.IdentityModel.dll
+D:\LMS\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.dll
+D:\LMS\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.pdb
+D:\LMS\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.xml
+D:\LMS\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.xml
+D:\LMS\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.dll
+D:\LMS\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.pdb
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.csprojResolveAssemblyReference.cache
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll.config
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.pdb
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.pdb
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.xml
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.pdb
+D:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll.config
+D:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll
+D:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.pdb
+D:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.dll
+D:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.dll
+D:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.IdentityModel.dll
+D:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.dll
+D:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.pdb
+D:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.xml
+D:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.xml
+D:\ServicesNEW\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.csprojResolveAssemblyReference.cache
+D:\ServicesNEW\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.dll
+D:\ServicesNEW\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.pdb
+E:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll.config
+E:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.dll
+E:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.DB.pdb
+E:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.dll
+E:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.dll
+E:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.IdentityModel.dll
+E:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.dll
+E:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\Microsoft.Library.Core.Model.pdb
+E:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.xml
+E:\ServicesNEW\Services\Microsoft.Library.Core.DB\bin\Debug\EntityFramework.SqlServer.xml
+E:\ServicesNEW\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.csprojResolveAssemblyReference.cache
+E:\ServicesNEW\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.dll
+E:\ServicesNEW\Services\Microsoft.Library.Core.DB\obj\Debug\Microsoft.Library.Core.DB.pdb

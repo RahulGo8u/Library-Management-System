@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Library.WCFService", "Microsoft.Library.WCFService\Microsoft.Library.WCFService.csproj", "{AE087C7F-5115-44DA-BFD3-4C89EEDC9CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Library.Core.DB", "Microsoft.Library.Core.DB\Microsoft.Library.Core.DB.csproj", "{90270C48-32A7-44BC-B813-364D8B826369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Library.Core.Model", "Microsoft.Library.Core.Model\Microsoft.Library.Core.Model.csproj", "{1132404E-C746-41E4-B0D0-4B2FDFD9AC4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Library.Core.DAL", "Microsoft.Library.Core.DAL\Microsoft.Library.Core.DAL.csproj", "{1651FF67-F853-4AE9-B051-E6DC80CD778B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{3D31D3ED-414D-4A3A-884A-B5CBD664B403}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE087C7F-5115-44DA-BFD3-4C89EEDC9CD1} = {AE087C7F-5115-44DA-BFD3-4C89EEDC9CD1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Library.Core.TestWCFClient", "..\Microsoft.Library.WCFService\Microsoft.Library.Core.TestWCFClient\Microsoft.Library.Core.TestWCFClient.csproj", "{F6A8B61A-B8F1-4A1C-A6C0-F589BC497BEF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE087C7F-5115-44DA-BFD3-4C89EEDC9CD1} = {AE087C7F-5115-44DA-BFD3-4C89EEDC9CD1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE087C7F-5115-44DA-BFD3-4C89EEDC9CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE087C7F-5115-44DA-BFD3-4C89EEDC9CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE087C7F-5115-44DA-BFD3-4C89EEDC9CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE087C7F-5115-44DA-BFD3-4C89EEDC9CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90270C48-32A7-44BC-B813-364D8B826369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90270C48-32A7-44BC-B813-364D8B826369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90270C48-32A7-44BC-B813-364D8B826369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90270C48-32A7-44BC-B813-364D8B826369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1132404E-C746-41E4-B0D0-4B2FDFD9AC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1132404E-C746-41E4-B0D0-4B2FDFD9AC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1132404E-C746-41E4-B0D0-4B2FDFD9AC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1132404E-C746-41E4-B0D0-4B2FDFD9AC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1651FF67-F853-4AE9-B051-E6DC80CD778B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1651FF67-F853-4AE9-B051-E6DC80CD778B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1651FF67-F853-4AE9-B051-E6DC80CD778B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1651FF67-F853-4AE9-B051-E6DC80CD778B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D31D3ED-414D-4A3A-884A-B5CBD664B403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D31D3ED-414D-4A3A-884A-B5CBD664B403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D31D3ED-414D-4A3A-884A-B5CBD664B403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D31D3ED-414D-4A3A-884A-B5CBD664B403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A8B61A-B8F1-4A1C-A6C0-F589BC497BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A8B61A-B8F1-4A1C-A6C0-F589BC497BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A8B61A-B8F1-4A1C-A6C0-F589BC497BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A8B61A-B8F1-4A1C-A6C0-F589BC497BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

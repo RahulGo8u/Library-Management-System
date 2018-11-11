@@ -1,0 +1,104 @@
+c:\users\raja\documents\visual studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.csprojResolveAssemblyReference.cache
+c:\users\raja\documents\visual studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.dll
+c:\users\raja\documents\visual studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.pdb
+c:\users\raja\documents\visual studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.dll
+c:\users\raja\documents\visual studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.pdb
+C:\Users\Raja\Documents\visual studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.dll
+C:\Users\Raja\Documents\visual studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.dll
+C:\Users\Raja\Documents\visual studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.dll
+C:\Users\Raja\Documents\visual studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\EntityFramework.dll
+C:\Users\Raja\Documents\visual studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.pdb
+C:\Users\Raja\Documents\visual studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.pdb
+C:\Users\Raja\Documents\visual studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.pdb
+C:\Users\Raja\Documents\visual studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\EntityFramework.xml
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.csprojResolveAssemblyReference.cache
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.pdb
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\EntityFramework.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.pdb
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.pdb
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.pdb
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.WCFService\bin\EntityFramework.xml
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.pdb
+C:\Users\Rahul\Desktop\Project3\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.csprojResolveAssemblyReference.cache
+C:\Users\Rahul\Desktop\Project3\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.dll
+C:\Users\Rahul\Desktop\Project3\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.pdb
+C:\Users\Rahul\Desktop\Project3\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.dll
+C:\Users\Rahul\Desktop\Project3\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.pdb
+C:\Users\Rahul\Desktop\Project3\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.dll
+C:\Users\Rahul\Desktop\Project3\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.dll
+C:\Users\Rahul\Desktop\Project3\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.dll
+C:\Users\Rahul\Desktop\Project3\Microsoft.Library.WCFService\bin\EntityFramework.dll
+C:\Users\Rahul\Desktop\Project3\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.pdb
+C:\Users\Rahul\Desktop\Project3\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.pdb
+C:\Users\Rahul\Desktop\Project3\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.pdb
+C:\Users\Rahul\Desktop\Project3\Microsoft.Library.WCFService\bin\EntityFramework.xml
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.pdb
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.WCFService\bin\EntityFramework.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.pdb
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.pdb
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.pdb
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.WCFService\bin\EntityFramework.xml
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.csprojResolveAssemblyReference.cache
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.pdb
+D:\LMS\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.csprojResolveAssemblyReference.cache
+D:\LMS\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.dll
+D:\LMS\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.pdb
+D:\LMS\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.dll
+D:\LMS\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.dll
+D:\LMS\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.dll
+D:\LMS\Services\Microsoft.Library.WCFService\bin\EntityFramework.dll
+D:\LMS\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.pdb
+D:\LMS\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.pdb
+D:\LMS\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.pdb
+D:\LMS\Services\Microsoft.Library.WCFService\bin\EntityFramework.xml
+D:\LMS\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.dll
+D:\LMS\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.pdb
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.csprojResolveAssemblyReference.cache
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.pdb
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.WCFService\bin\EntityFramework.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.pdb
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.pdb
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.pdb
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.WCFService\bin\EntityFramework.xml
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.pdb
+D:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.dll
+D:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.pdb
+D:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.dll
+D:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.dll
+D:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.dll
+D:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\EntityFramework.dll
+D:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.pdb
+D:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.pdb
+D:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.pdb
+D:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\EntityFramework.xml
+D:\ServicesNEW\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.csprojResolveAssemblyReference.cache
+D:\ServicesNEW\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.dll
+D:\ServicesNEW\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.pdb
+E:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.dll
+E:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.WCFService.pdb
+E:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.dll
+E:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.dll
+E:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.dll
+E:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\EntityFramework.dll
+E:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DAL.pdb
+E:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.DB.pdb
+E:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\Microsoft.Library.Core.Model.pdb
+E:\ServicesNEW\Services\Microsoft.Library.WCFService\bin\EntityFramework.xml
+E:\ServicesNEW\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.csprojResolveAssemblyReference.cache
+E:\ServicesNEW\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.dll
+E:\ServicesNEW\Services\Microsoft.Library.WCFService\obj\Debug\Microsoft.Library.WCFService.pdb

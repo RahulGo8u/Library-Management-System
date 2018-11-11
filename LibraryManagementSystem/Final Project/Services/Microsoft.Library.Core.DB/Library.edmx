@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="LibraryModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="LibraryModelStoreContainer">
+          <EntitySet Name="tbl_Books" EntityType="LibraryModel.Store.tbl_Books" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tbl_Category" EntityType="LibraryModel.Store.tbl_Category" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tbl_Role" EntityType="LibraryModel.Store.tbl_Role" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tbl_Transaction" EntityType="LibraryModel.Store.tbl_Transaction" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tbl_Users" EntityType="LibraryModel.Store.tbl_Users" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK__tbl_Users__RoleI__09A971A2" Association="LibraryModel.Store.FK__tbl_Users__RoleI__09A971A2">
+            <End Role="tbl_Role" EntitySet="tbl_Role" />
+            <End Role="tbl_Users" EntitySet="tbl_Users" />
+          </AssociationSet>
+          <AssociationSet Name="fk_BookId" Association="LibraryModel.Store.fk_BookId">
+            <End Role="tbl_Books" EntitySet="tbl_Books" />
+            <End Role="tbl_Transaction" EntitySet="tbl_Transaction" />
+          </AssociationSet>
+          <AssociationSet Name="fk_UserId" Association="LibraryModel.Store.fk_UserId">
+            <End Role="tbl_Users" EntitySet="tbl_Users" />
+            <End Role="tbl_Transaction" EntitySet="tbl_Transaction" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="tbl_Books">
+          <Key>
+            <PropertyRef Name="BookId" />
+          </Key>
+          <Property Name="BookId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="Author" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="Description" Type="varchar" Nullable="false" MaxLength="60" />
+          <Property Name="Publisher" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="Price" Type="decimal" Nullable="false" Precision="8" Scale="2" />
+          <Property Name="Category" Type="varchar" MaxLength="30" />
+          <Property Name="ISBNNumber" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="AvailStatus" Type="bit" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6035: The relationship 'fk_Category' has columns that are not part of the key of the table on the primary side of the relationship. The relationship was excluded.
+      -->
+        <EntityType Name="tbl_Category">
+          <Key>
+            <PropertyRef Name="CategoryId" />
+          </Key>
+          <Property Name="CategoryId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Category" Type="varchar" Nullable="false" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="tbl_Role">
+          <Key>
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="RoleId" Type="int" Nullable="false" />
+          <Property Name="Role" Type="varchar" Nullable="false" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="tbl_Transaction">
+          <Key>
+            <PropertyRef Name="TransactionId" />
+          </Key>
+          <Property Name="TransactionId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="BookId" Type="int" />
+          <Property Name="IssueDate" Type="date" Nullable="false" />
+          <Property Name="DueDate" Type="date" Nullable="false" />
+          <Property Name="ReturnDate" Type="date" />
+        </EntityType>
+        <EntityType Name="tbl_Users">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="LastName" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="Password" Type="varchar" MaxLength="30" />
+          <Property Name="DOB" Type="date" Nullable="false" />
+          <Property Name="MobileNo" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="EmailId" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="RoleId" Type="int" />
+        </EntityType>
+        <Association Name="FK__tbl_Users__RoleI__09A971A2">
+          <End Role="tbl_Role" Type="LibraryModel.Store.tbl_Role" Multiplicity="0..1" />
+          <End Role="tbl_Users" Type="LibraryModel.Store.tbl_Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbl_Role">
+              <PropertyRef Name="RoleId" />
+            </Principal>
+            <Dependent Role="tbl_Users">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_BookId">
+          <End Role="tbl_Books" Type="LibraryModel.Store.tbl_Books" Multiplicity="0..1" />
+          <End Role="tbl_Transaction" Type="LibraryModel.Store.tbl_Transaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbl_Books">
+              <PropertyRef Name="BookId" />
+            </Principal>
+            <Dependent Role="tbl_Transaction">
+              <PropertyRef Name="BookId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_UserId">
+          <End Role="tbl_Users" Type="LibraryModel.Store.tbl_Users" Multiplicity="0..1" />
+          <End Role="tbl_Transaction" Type="LibraryModel.Store.tbl_Transaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbl_Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="tbl_Transaction">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LibraryModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="LibraryDBContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="tbl_Books" EntityType="LibraryModel.tbl_Books" />
+          <EntitySet Name="tbl_Category" EntityType="LibraryModel.tbl_Category" />
+          <EntitySet Name="tbl_Role" EntityType="LibraryModel.tbl_Role" />
+          <EntitySet Name="tbl_Transaction" EntityType="LibraryModel.tbl_Transaction" />
+          <EntitySet Name="tbl_Users" EntityType="LibraryModel.tbl_Users" />
+          <AssociationSet Name="fk_BookId" Association="LibraryModel.fk_BookId">
+            <End Role="tbl_Books" EntitySet="tbl_Books" />
+            <End Role="tbl_Transaction" EntitySet="tbl_Transaction" />
+          </AssociationSet>
+          <AssociationSet Name="FK__tbl_Users__RoleI__09A971A2" Association="LibraryModel.FK__tbl_Users__RoleI__09A971A2">
+            <End Role="tbl_Role" EntitySet="tbl_Role" />
+            <End Role="tbl_Users" EntitySet="tbl_Users" />
+          </AssociationSet>
+          <AssociationSet Name="fk_UserId" Association="LibraryModel.fk_UserId">
+            <End Role="tbl_Users" EntitySet="tbl_Users" />
+            <End Role="tbl_Transaction" EntitySet="tbl_Transaction" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="tbl_Books">
+          <Key>
+            <PropertyRef Name="BookId" />
+          </Key>
+          <Property Name="BookId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Author" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="60" Unicode="false" FixedLength="false" />
+          <Property Name="Publisher" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Price" Type="Decimal" Nullable="false" Precision="8" Scale="2" />
+          <Property Name="Category" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="ISBNNumber" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="AvailStatus" Type="Boolean" />
+          <NavigationProperty Name="tbl_Transaction" Relationship="LibraryModel.fk_BookId" FromRole="tbl_Books" ToRole="tbl_Transaction" />
+        </EntityType>
+        <EntityType Name="tbl_Category">
+          <Key>
+            <PropertyRef Name="CategoryId" />
+          </Key>
+          <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Category" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="tbl_Role">
+          <Key>
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="RoleId" Type="Int32" Nullable="false" />
+          <Property Name="Role" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="tbl_Users" Relationship="LibraryModel.FK__tbl_Users__RoleI__09A971A2" FromRole="tbl_Role" ToRole="tbl_Users" />
+        </EntityType>
+        <EntityType Name="tbl_Transaction">
+          <Key>
+            <PropertyRef Name="TransactionId" />
+          </Key>
+          <Property Name="TransactionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" />
+          <Property Name="BookId" Type="Int32" />
+          <Property Name="IssueDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="DueDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="ReturnDate" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="tbl_Books" Relationship="LibraryModel.fk_BookId" FromRole="tbl_Transaction" ToRole="tbl_Books" />
+          <NavigationProperty Name="tbl_Users" Relationship="LibraryModel.fk_UserId" FromRole="tbl_Transaction" ToRole="tbl_Users" />
+        </EntityType>
+        <EntityType Name="tbl_Users">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="LastName" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Password" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="DOB" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="MobileNo" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="EmailId" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="RoleId" Type="Int32" />
+          <NavigationProperty Name="tbl_Role" Relationship="LibraryModel.FK__tbl_Users__RoleI__09A971A2" FromRole="tbl_Users" ToRole="tbl_Role" />
+          <NavigationProperty Name="tbl_Transaction" Relationship="LibraryModel.fk_UserId" FromRole="tbl_Users" ToRole="tbl_Transaction" />
+        </EntityType>
+        <Association Name="fk_BookId">
+          <End Role="tbl_Books" Type="LibraryModel.tbl_Books" Multiplicity="0..1" />
+          <End Role="tbl_Transaction" Type="LibraryModel.tbl_Transaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbl_Books">
+              <PropertyRef Name="BookId" />
+            </Principal>
+            <Dependent Role="tbl_Transaction">
+              <PropertyRef Name="BookId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__tbl_Users__RoleI__09A971A2">
+          <End Role="tbl_Role" Type="LibraryModel.tbl_Role" Multiplicity="0..1" />
+          <End Role="tbl_Users" Type="LibraryModel.tbl_Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbl_Role">
+              <PropertyRef Name="RoleId" />
+            </Principal>
+            <Dependent Role="tbl_Users">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_UserId">
+          <End Role="tbl_Users" Type="LibraryModel.tbl_Users" Multiplicity="0..1" />
+          <End Role="tbl_Transaction" Type="LibraryModel.tbl_Transaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbl_Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="tbl_Transaction">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LibraryModelStoreContainer" CdmEntityContainer="LibraryDBContext">
+          <EntitySetMapping Name="tbl_Books">
+            <EntityTypeMapping TypeName="LibraryModel.tbl_Books">
+              <MappingFragment StoreEntitySet="tbl_Books">
+                <ScalarProperty Name="BookId" ColumnName="BookId" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Author" ColumnName="Author" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Publisher" ColumnName="Publisher" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="ISBNNumber" ColumnName="ISBNNumber" />
+                <ScalarProperty Name="AvailStatus" ColumnName="AvailStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_Category">
+            <EntityTypeMapping TypeName="LibraryModel.tbl_Category">
+              <MappingFragment StoreEntitySet="tbl_Category">
+                <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_Role">
+            <EntityTypeMapping TypeName="LibraryModel.tbl_Role">
+              <MappingFragment StoreEntitySet="tbl_Role">
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+                <ScalarProperty Name="Role" ColumnName="Role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_Transaction">
+            <EntityTypeMapping TypeName="LibraryModel.tbl_Transaction">
+              <MappingFragment StoreEntitySet="tbl_Transaction">
+                <ScalarProperty Name="TransactionId" ColumnName="TransactionId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="BookId" ColumnName="BookId" />
+                <ScalarProperty Name="IssueDate" ColumnName="IssueDate" />
+                <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+                <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_Users">
+            <EntityTypeMapping TypeName="LibraryModel.tbl_Users">
+              <MappingFragment StoreEntitySet="tbl_Users">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="DOB" ColumnName="DOB" />
+                <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+                <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

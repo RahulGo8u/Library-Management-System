@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LibraryModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="LibraryModelStoreContainer">
+    <EntitySet Name="tbl_Books" EntityType="LibraryModel.Store.tbl_Books" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbl_Category" EntityType="LibraryModel.Store.tbl_Category" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbl_Role" EntityType="LibraryModel.Store.tbl_Role" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbl_Transaction" EntityType="LibraryModel.Store.tbl_Transaction" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbl_Users" EntityType="LibraryModel.Store.tbl_Users" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__tbl_Users__RoleI__09A971A2" Association="LibraryModel.Store.FK__tbl_Users__RoleI__09A971A2">
+      <End Role="tbl_Role" EntitySet="tbl_Role" />
+      <End Role="tbl_Users" EntitySet="tbl_Users" />
+    </AssociationSet>
+    <AssociationSet Name="fk_BookId" Association="LibraryModel.Store.fk_BookId">
+      <End Role="tbl_Books" EntitySet="tbl_Books" />
+      <End Role="tbl_Transaction" EntitySet="tbl_Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="fk_UserId" Association="LibraryModel.Store.fk_UserId">
+      <End Role="tbl_Users" EntitySet="tbl_Users" />
+      <End Role="tbl_Transaction" EntitySet="tbl_Transaction" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tbl_Books">
+    <Key>
+      <PropertyRef Name="BookId" />
+    </Key>
+    <Property Name="BookId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="Author" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="Description" Type="varchar" Nullable="false" MaxLength="60" />
+    <Property Name="Publisher" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="Price" Type="decimal" Nullable="false" Precision="8" Scale="2" />
+    <Property Name="Category" Type="varchar" MaxLength="30" />
+    <Property Name="ISBNNumber" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="AvailStatus" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6035: The relationship 'fk_Category' has columns that are not part of the key of the table on the primary side of the relationship. The relationship was excluded.
+      -->
+  <EntityType Name="tbl_Category">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Category" Type="varchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="tbl_Role">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="Role" Type="varchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="tbl_Transaction">
+    <Key>
+      <PropertyRef Name="TransactionId" />
+    </Key>
+    <Property Name="TransactionId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="BookId" Type="int" />
+    <Property Name="IssueDate" Type="date" Nullable="false" />
+    <Property Name="DueDate" Type="date" Nullable="false" />
+    <Property Name="ReturnDate" Type="date" />
+  </EntityType>
+  <EntityType Name="tbl_Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="LastName" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="Password" Type="varchar" MaxLength="30" />
+    <Property Name="DOB" Type="date" Nullable="false" />
+    <Property Name="MobileNo" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="EmailId" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="RoleId" Type="int" />
+  </EntityType>
+  <Association Name="FK__tbl_Users__RoleI__09A971A2">
+    <End Role="tbl_Role" Type="LibraryModel.Store.tbl_Role" Multiplicity="0..1" />
+    <End Role="tbl_Users" Type="LibraryModel.Store.tbl_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Role">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="tbl_Users">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_BookId">
+    <End Role="tbl_Books" Type="LibraryModel.Store.tbl_Books" Multiplicity="0..1" />
+    <End Role="tbl_Transaction" Type="LibraryModel.Store.tbl_Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Books">
+        <PropertyRef Name="BookId" />
+      </Principal>
+      <Dependent Role="tbl_Transaction">
+        <PropertyRef Name="BookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_UserId">
+    <End Role="tbl_Users" Type="LibraryModel.Store.tbl_Users" Multiplicity="0..1" />
+    <End Role="tbl_Transaction" Type="LibraryModel.Store.tbl_Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="tbl_Transaction">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

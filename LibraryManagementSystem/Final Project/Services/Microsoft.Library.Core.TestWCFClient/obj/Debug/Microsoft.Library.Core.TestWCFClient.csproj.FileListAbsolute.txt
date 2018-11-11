@@ -1,0 +1,17 @@
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.TestWCFClient\bin\Debug\Microsoft.Library.Core.TestWCFClient.exe.config
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.TestWCFClient\bin\Debug\Microsoft.Library.Core.TestWCFClient.exe
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.TestWCFClient\bin\Debug\Microsoft.Library.Core.TestWCFClient.pdb
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.TestWCFClient\obj\Debug\Microsoft.Library.Core.TestWCFClient.exe
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.TestWCFClient\obj\Debug\Microsoft.Library.Core.TestWCFClient.pdb
+D:\LMS\Microsoft.Library.WCFService\Microsoft.Library.Core.TestWCFClient\bin\Debug\Microsoft.Library.Core.TestWCFClient.exe.config
+D:\LMS\Microsoft.Library.WCFService\Microsoft.Library.Core.TestWCFClient\bin\Debug\Microsoft.Library.Core.TestWCFClient.exe
+D:\LMS\Microsoft.Library.WCFService\Microsoft.Library.Core.TestWCFClient\bin\Debug\Microsoft.Library.Core.TestWCFClient.pdb
+D:\LMS\Microsoft.Library.WCFService\Microsoft.Library.Core.TestWCFClient\obj\Debug\Microsoft.Library.Core.TestWCFClient.csprojResolveAssemblyReference.cache
+D:\LMS\Microsoft.Library.WCFService\Microsoft.Library.Core.TestWCFClient\obj\Debug\Microsoft.Library.Core.TestWCFClient.exe
+D:\LMS\Microsoft.Library.WCFService\Microsoft.Library.Core.TestWCFClient\obj\Debug\Microsoft.Library.Core.TestWCFClient.pdb
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.TestWCFClient\bin\Debug\Microsoft.Library.Core.TestWCFClient.exe.config
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.TestWCFClient\bin\Debug\Microsoft.Library.Core.TestWCFClient.exe
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.TestWCFClient\bin\Debug\Microsoft.Library.Core.TestWCFClient.pdb
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.TestWCFClient\obj\Debug\Microsoft.Library.Core.TestWCFClient.csprojResolveAssemblyReference.cache
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.TestWCFClient\obj\Debug\Microsoft.Library.Core.TestWCFClient.exe
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.TestWCFClient\obj\Debug\Microsoft.Library.Core.TestWCFClient.pdb

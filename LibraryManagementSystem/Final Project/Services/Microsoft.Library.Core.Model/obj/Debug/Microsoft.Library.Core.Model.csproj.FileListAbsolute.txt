@@ -1,0 +1,37 @@
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.dll
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.pdb
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.Model\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.csprojResolveAssemblyReference.cache
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.dll
+C:\Users\Raja\Documents\Visual Studio 2013\Projects\Microsoft.Library.WCFService\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.pdb
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.pdb
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.Model\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.dll
+C:\Users\Rahul\Desktop\Microsoft.Library.WCFService\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.pdb
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.pdb
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.dll
+C:\Users\Rahul\Desktop\Services\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.pdb
+D:\LMS\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.dll
+D:\LMS\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.pdb
+D:\LMS\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.IdentityModel.dll
+D:\LMS\Services\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.dll
+D:\LMS\Services\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.pdb
+D:\LMS\Services\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.csprojResolveAssemblyReference.cache
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.pdb
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.dll
+C:\Users\ramya_choudhary\Pictures\Services\Services\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.pdb
+D:\ServicesNEW\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.dll
+D:\ServicesNEW\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.pdb
+D:\ServicesNEW\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.IdentityModel.dll
+D:\ServicesNEW\Services\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.dll
+D:\ServicesNEW\Services\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.pdb
+E:\ServicesNEW\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.dll
+E:\ServicesNEW\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.Library.Core.Model.pdb
+E:\ServicesNEW\Services\Microsoft.Library.Core.Model\bin\Debug\Microsoft.IdentityModel.dll
+E:\ServicesNEW\Services\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.dll
+E:\ServicesNEW\Services\Microsoft.Library.Core.Model\obj\Debug\Microsoft.Library.Core.Model.pdb

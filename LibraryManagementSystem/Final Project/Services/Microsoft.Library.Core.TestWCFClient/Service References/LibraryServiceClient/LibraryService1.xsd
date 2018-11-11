@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Microsoft.Library.WCFService.Service" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Microsoft.Library.WCFService.Service" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:4670/Service/LibraryService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Microsoft.Library.Core.Model" />
+  <xs:complexType name="Books">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Author" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AvailStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="BookId" type="xs:int" />
+      <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ISBNNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Price" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Publisher" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Books" nillable="true" type="tns:Books" />
+  <xs:complexType name="Categories">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CategoryId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Categories" nillable="true" type="tns:Categories" />
+  <xs:complexType name="Users">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DOB" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EmailId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoleId" type="xs:int" />
+      <xs:element minOccurs="0" name="UserId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Users" nillable="true" type="tns:Users" />
+  <xs:complexType name="ArrayOfCategories">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Categories" nillable="true" type="tns:Categories" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCategories" nillable="true" type="tns:ArrayOfCategories" />
+  <xs:complexType name="ArrayOfTransaction">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Transaction" nillable="true" type="tns:Transaction" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTransaction" nillable="true" type="tns:ArrayOfTransaction" />
+  <xs:complexType name="Transaction">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BookId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="DueDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IssueDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ReturnDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TransactionId" type="xs:int" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:int" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Microsoft.Library.Core.Model" minOccurs="0" name="tbl_Books" nillable="true" type="q1:tbl_Books" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Microsoft.Library.Core.Model" minOccurs="0" name="tbl_Users" nillable="true" type="q2:tbl_Users" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Transaction" nillable="true" type="tns:Transaction" />
+  <xs:complexType name="ArrayOfBooks">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Books" nillable="true" type="tns:Books" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBooks" nillable="true" type="tns:ArrayOfBooks" />
+</xs:schema>

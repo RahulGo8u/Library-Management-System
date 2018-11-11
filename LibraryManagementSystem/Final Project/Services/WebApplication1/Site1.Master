@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajax" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+       
+    </asp:ContentPlaceHolder>
+
+<%--CSS--%>
+    <style>
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:2px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:450px;
+    width:200px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:800px;
+    height:450px;
+    float:left;
+    padding:5px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+
+        .auto-style1 {
+            width: 82px;
+        }
+
+    </style>
+
+</head>
+<body>
+          
+<form id="form1" runat="server">
+<ajax:ToolkitScriptManager runat="server" ></ajax:ToolkitScriptManager>
+<div class="header">
+
+<%--Header--%>
+<header>
+<table>  
+<tr>
+<td rowspan="2"> 
+<h1 style="width:900px; height:90px; text-align:center"> <img src="Images/Lib.gif" style="width: 274px; height: 52px; margin-top: 0px;" />Keep Learning...Keep Growing...</h1>
+
+</td>
+
+<td rowspan="2">
+<img src="Images/Lbry.gif" style="width:150px; height:120px" />
+</td>
+<td class="auto-style1"></td>
+<td style="padding:74px 5px 20px 10px">
+<asp:UpdatePanel ID="UpdatePanel1" runat="server">
+<ContentTemplate>
+<asp:Timer ID="Timer1" runat="server" Interval="1000">
+</asp:Timer>
+<asp:Label ID="lblcurrenttime" runat="server" Text="" ForeColor="White"></asp:Label>
+</ContentTemplate>
+</asp:UpdatePanel>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<asp:HyperLink ID="hlLogOut" runat="server" NavigateUrl="~/Login.aspx" ForeColor="White"><b style="cursor:url(Images/logout.jpg),auto">Log Out</b></asp:HyperLink>
+</td>
+</tr>
+</table>
+</header>
+
+<%--Navigation--%>
+<asp:Label ID="Label1" runat="server" Text="Current User:" ForeColor="#800080" Font-Bold="true"></asp:Label>
+<asp:Label ID="lblCurrentUser" runat="server" ForeColor="#800080" Font-Bold="true"></asp:Label>(
+<asp:Label ID="lblRole" runat="server" ForeColor="#000000" Font-Bold="true"></asp:Label>)<br/>
+<nav>
+
+<asp:HyperLink ID="hlHome" runat="server" NavigateUrl="~/Home.aspx"><b style="cursor:url(Images/Home.png), auto;">Home</b></asp:HyperLink><br/>
+<asp:HyperLink ID="hlSearchBooks" runat="server" NavigateUrl="~/SearchBooks.aspx"><b style="cursor:url(Images/SEARCH.png), auto;">Search Books</b></asp:HyperLink><br/>
+<asp:HyperLink ID="hlBooks" runat="server" NavigateUrl="~/Books.aspx"><b style="cursor:url(Images/BOOK.jpg), auto;">Books Section</b></asp:HyperLink><br/>
+<asp:HyperLink ID="hlMembers" runat="server" NavigateUrl="~/Members.aspx"><b style="cursor:url(Images/MEMBER.png), auto;">Members Section</b></asp:HyperLink><br/>
+<asp:HyperLink ID="hlTransactions" runat="server" NavigateUrl="~/Transactions.aspx"><b style="cursor:url(Images/TRANSACTION.jpg), auto;">Transactions</b></asp:HyperLink><br/>
+
+</nav>
+
+<%--Section--%>
+<section>
+
+<div>
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+</asp:ContentPlaceHolder>
+</div>
+
+</section>
+
+<%--Footer--%>
+<footer>
+Copyright © Library.com
+</footer>
+
+</div>
+
+<div></div>
+</form>
+</body>
+</html>
